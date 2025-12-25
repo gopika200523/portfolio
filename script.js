@@ -1,3 +1,9 @@
+const menuIcon = document.getElementById("menu-icon");
+const nav = document.querySelector("header nav");
+
+menuIcon.onclick = () => {
+  nav.classList.toggle("active");
+};
 // Portfolio slider
 const arrowRight = document.querySelector(
   ".portfolio-box .navigation .arrow-right"
